@@ -6,8 +6,12 @@
 }
 
 .header {
-    border-bottom: solid 2px var(--bs-blue);
+    border-bottom: none;
     z-index: 10000;
+}
+
+#page-top-title {
+    display: none !important;
 }
 
 .bg-bottom {

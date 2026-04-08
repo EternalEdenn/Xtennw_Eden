@@ -1,8 +1,8 @@
 I am currently a PhD student in the Yanaka Lab at the University of Tokyo. My research is mainly related to Machine Translation.
 
 #### Contact
-<a href="mailto:wangxiaotian1999@outlook.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
-<a href="https://github.com/EternalEdenn" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+<a href="mailto:wangxiaotian1999@outlook.com" aria-label="Email" style="color:#000;font-size:1.35rem;margin-right:0.6rem;"><i class="bi bi-envelope-fill"></i></a>
+<a href="https://github.com/EternalEdenn" aria-label="GitHub" target="_blank" rel="noopener noreferrer" style="color:#000;font-size:1.35rem;"><i class="bi bi-github"></i></a>
 
 #### Education
 **University of Tokyo**, Doctoral Program (04/2026 – Present)

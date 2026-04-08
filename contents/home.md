@@ -1,4 +1,4 @@
-I am currently a PhD student in the Yanaka Lab at the University of Tokyo. My research is mainly related to Machine Translation.
+I am currently a PhD student in the [Yanaka Lab](https://ylab.mystrikingly.com) at the University of Tokyo. My research is mainly related to Machine Translation.
 
 <h4 style="font-size:1.65rem;">Contact</h4>
 <a href="mailto:wangxiaotian1999@outlook.com" aria-label="Email" style="color:#000;font-size:1.7rem;margin-right:0.7rem;"><i class="bi bi-envelope-fill"></i></a>

@@ -72,12 +72,34 @@ section .main-body{
 }
 
 a,
+a:visited,
 a:hover,
 a:focus,
+a:active,
 .nav-link,
 .nav-link:hover,
+.nav-link:visited,
 .navbar-brand,
 .navbar-brand:hover {
+    color: #000 !important;
+}
+
+body,
+p,
+li,
+span,
+strong,
+em,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.main-body,
+section .main-body,
+section .main-body a,
+section .main-body a:visited {
     color: #000 !important;
 }
 

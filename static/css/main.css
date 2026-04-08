@@ -121,10 +121,43 @@ section .main-body{
     box-shadow: 0 12px 26px rgba(0, 0, 0, 0.36);
 }
 
+#profile-links {
+    position: absolute;
+    left: 50%;
+    top: calc(79% + 78px);
+    transform: translateX(-50%);
+    z-index: 4;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#profile-links a {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.92);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+#profile-links img {
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
 @media screen and (max-width: 991px) {
     #avatar {
         left: 50%;
         top: 76%;
+    }
+
+    #profile-links {
+        top: calc(76% + 74px);
     }
 }
 
@@ -141,5 +174,20 @@ section .main-body{
 
     #avatar img {
         width: clamp(78px, 20vw, 112px);
+    }
+
+    #profile-links {
+        top: calc(73% + 64px);
+        gap: 8px;
+    }
+
+    #profile-links a {
+        width: 30px;
+        height: 30px;
+    }
+
+    #profile-links img {
+        width: 18px;
+        height: 18px;
     }
 }

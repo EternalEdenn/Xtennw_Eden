@@ -2,7 +2,12 @@
 
 
 :root{
-    --h-title-color:#1f2937;
+    --h-title-color:#4a3f38;
+    --text-color:#2f2a26;
+    --muted-color:#6a625b;
+    --accent-soft:#7a6a5b;
+    --surface-light:#f6f3ef;
+    --surface-mid:#eee8e1;
 }
 
 .header {
@@ -15,8 +20,8 @@
 }
 
 .bg-bottom {
-    background-color: #ffffff;
-    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    background-color: #eee6dc;
+    border-top: 1px solid rgba(122, 106, 91, 0.25);
 }
 
 .top-section {
@@ -69,40 +74,40 @@ section .main-body{
     font-size: 1.3rem;
     font-weight: 200;
     line-height: 2.4rem;
-    color: #111827;
+    color: var(--text-color);
 }
 
 body {
-    color: #111827;
+    color: var(--text-color);
 }
 
 .nav-link,
 .nav-link:visited,
 .navbar-brand {
-    color: #111827 !important;
+    color: var(--text-color) !important;
 }
 
 .nav-link:hover,
 .navbar-brand:hover {
-    color: #374151 !important;
+    color: var(--accent-soft) !important;
 }
 
 section .main-body a,
 section .main-body a:visited {
-    color: #1f2937 !important;
+    color: var(--h-title-color) !important;
 }
 
 section .main-body a:hover {
-    color: #4b5563 !important;
+    color: var(--accent-soft) !important;
 }
 
 
 .bg-gradient-primary-to-secondary-light {
-    background: linear-gradient(45deg, #fcfcfc, #ffffff) !important;
+    background: linear-gradient(45deg, var(--surface-light), #ffffff) !important;
 }
 
 .bg-gradient-primary-to-secondary-gray {
-    background: linear-gradient(45deg, #f0f0f0, #f1f1f1) !important;
+    background: linear-gradient(45deg, var(--surface-mid), #f8fafb) !important;
 }
 
 
@@ -162,13 +167,13 @@ section .main-body a:hover {
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.92);
-    border: 1px solid rgba(0, 0, 0, 0.08);
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid rgba(122, 106, 91, 0.28);
     display: inline-flex;
     align-items: center;
     justify-content: center;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    color: #000;
+    color: var(--text-color);
     text-decoration: none;
     overflow: hidden;
 }
@@ -176,7 +181,7 @@ section .main-body a:hover {
 .bg-bottom a,
 .bg-bottom a:hover,
 .bg-bottom .text-white-50 {
-    color: #000 !important;
+    color: var(--text-color) !important;
 }
 
 #profile-links img {

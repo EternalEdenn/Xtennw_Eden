@@ -1,7 +1,8 @@
 Xiaotian Wang (王小天) works on Natural Language Processing.
 
 #### Contact
-<code>wangxiaotian1999@outlook.com</code>
+<a href="mailto:wangxiaotian1999@outlook.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+<a href="https://github.com/EternalEdenn" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
 
 #### Education
 **University of Tokyo**, Doctoral Program (04/2026 – Present)
